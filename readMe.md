@@ -183,20 +183,19 @@ The app can be divided into two primary components: **Patient App** and **Admin 
   
 ---
 
-This architecture ensures a feature-rich health monitoring application leveraging AI to offer proactive healthcare suggestions and risk alerts while maintaining security and scalability.
+# This architecture ensures a feature-rich health monitoring application leveraging AI to offer proactive healthcare suggestions and risk alerts while maintaining security and scalability.
 
 
-Add the organization table 
+- Add the organization table 
 
-With limit 10 patients .
-
-Limit exceeded show the payment 
-deit dish maker ( as per weight and health - with user items )
-health analysis with daily record and health band  / Watch / app tracker 
-default reminder ( eye / water / walk )
-home medicine Suggestor
-medicine and deit shaduler
-health diagnosis 
+- With limit 10 patients .
+- Limit exceeded show the payment 
+- deit dish maker ( as per weight and health - with user items )
+- health analysis with daily record and health band  / Watch / app tracker 
+- default reminder ( eye / water / walk )
+- home medicine Suggestor
+- medicine and deit shaduler
+- health diagnosis 
 
 
 
