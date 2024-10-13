@@ -2,6 +2,7 @@
 const path = require('path');
 const Sequelize = require('sequelize');
 const process = require('process');
+const chalk = require('chalk')
 const env = process.env.HOST_ENV || 'development';  // Default to development if not set
 
 require('dotenv').config();
@@ -46,11 +47,11 @@ DBTables.sequelize = sequelize;
 function serverDB() {
   sequelize.sync()
     .then(() => {
-      console.log('Migration run successfully completed!');
+      console.log(chalk.green('Migration run successfully completed!'));
     })
     .catch((err) => {
         console.log(err)
-      console.error("Migration failed. Database server restart in 5 minutes...");
+      console.error(chalk.red("Migration failed. Database server restart in 5 minutes..."));
       setTimeout(serverDB, 300000); // Retry after 5 minutes
     });
 }
