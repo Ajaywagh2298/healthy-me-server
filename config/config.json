@@ -1,0 +1,30 @@
+{
+    "production": {
+        "username": "root",
+        "password": null,
+        "database": "healthyme",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "demo": {
+        "username": "root",
+        "password": null,
+        "database": "healthyme_demo",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "uat-demo": {
+        "username": "root",
+        "password": null,
+        "database": "healthyme_uat",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "development": {
+        "username": "root",
+        "password": "root",
+        "database": "healthyme_dev",
+        "host": "localhost",
+        "dialect": "mysql"
+    }
+}

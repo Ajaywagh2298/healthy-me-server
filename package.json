@@ -1,0 +1,32 @@
+{
+  "name": "healthy-me-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node master_server.js",
+    "processor": "node processor/migration_server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "boxen": "^8.0.1",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "dataloader-sequelize": "^2.3.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "libphonenumber-js": "^1.11.10",
+    "mysql2": "^3.11.3",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "sequelize-cursor-pagination": "^3.4.0",
+    "uuid": "^9.0.1"
+  }
+}
